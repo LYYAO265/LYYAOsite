@@ -1,0 +1,140 @@
+body{
+    font:12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    background-color: blanchedalmond;
+    font-family:"Microsoft YaHei";
+    font-family:"SimSun";
+   
+}
+.introduction_z{
+	background-color: unset;
+    width:4000px;
+    padding-bottom:0px;
+	height:1000px;
+	margin-left:200px;
+}
+.i_z_left{
+	width:400px;
+    float:left;
+    margin-left:10px;
+    margin-top:15px;
+}
+.i_z_right{
+	width:800px;
+	float:right;
+    margin-right:0px;
+    margin-top:15px;
+    min-height:600px;
+}
+
+.r_h_1{
+	display:block;
+}
+.r_h_1::after{
+	clear:both;
+    content:".";
+    height:0px;
+    visibility:hidden;
+}
+ol,ul{
+	list-style:none;
+}
+.title{
+	display:inline-block;
+    float:left;
+    height:40px;
+    line-height:0px;
+	margin-left:-40px;
+}
+li,ol{
+	list-style:none;
+}
+h2{
+	display:inline-block;
+    font-size:18px;
+    font-weight:bold;
+    color: black;
+	
+}
+.content{
+	font-size:12px!important;
+	display:inline-block;
+    float:right;
+    white-space:nowrap;
+    height:18px;
+    line-height:10px;
+    margin-top:5px;
+}
+.c_name{
+	margin-bottom:5px;
+}
+.r_table{
+	margin-top:17px;
+}
+.r_table_1{
+	line-height:2;
+    font-size:14px;
+    color:#555;
+}
+.table{
+	border:solid #fff;
+    border-width:1px 0px 0px 1px;
+    background-color: burlywood;
+}
+table{
+	border-collapse:collapse;
+    border-spacing:0px;
+}
+.td{
+	border:solid #fff;
+    border-width:0px 1px 1px 0px;
+    padding:2px 10px;
+}
+p{
+	margin-bottom:30px;
+}
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+#top
+{
+    width:1004px;
+    height:80px;
+    margin:auto;
+}
+#nav
+{
+    width:1200px;
+    height:40px;
+    margin: auto;
+    background-color: peru;
+}
+
+ul,li
+{
+    list-style: none;
+}
+#nav li
+{
+    display:block;
+    width:240px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    background-color:  peru;
+    float:left;
+}
+#nav li li{
+    background-color: rgb(223, 208, 124);
+}
+#nav a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+#nav ul ul{
+    display: none;
+}

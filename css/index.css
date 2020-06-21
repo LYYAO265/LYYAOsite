@@ -1,0 +1,35 @@
+
+ body {
+    
+    font-size:14px;
+    line-height:1;
+    background-color: antiquewhite;
+    font-family:"SimSun";
+ }
+.shouye{
+    width:100%;
+    margin:0 auto;
+  } 
+.shouye-zhong{
+    width:1000px;
+    margin:0 auto;
+  }
+.top{
+    background-repeat: no-repeat;  
+    border-top:4px solid;
+  }
+.tt{
+      display:inline-block;
+      */float:left;
+      margin-top:5px;
+      font-size:18px;
+      font-weight:normal;
+      color:#9d7a23;
+  }
+.contiue{
+    color: rgb(8, 8, 8);
+    size: 7px;
+    margin-left: 12cm;
+	width: 100%;
+	background-color: burlywood;
+ }

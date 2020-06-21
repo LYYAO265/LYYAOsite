@@ -1,0 +1,105 @@
+body {
+	background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#site-title {
+    margin-right: 0px;
+    padding: 1.5em 0 0;
+    color: chocolate;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+#site-description {
+    color: darkgoldenrod;
+    font-size: 20px;
+    margin: 0 270px 1.5em 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+*
+{
+    margin:0px;
+    padding:0px;
+}
+#top
+{
+    width:1004px;
+    height:5px;
+    margin:auto;
+}
+#nav
+{
+    width:1200px;
+    height:40px;
+    margin: auto;
+    background-color: peru;
+}
+ul,li
+{
+    list-style: none;
+}
+#nav li
+{
+    display:block;
+    width:240px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    background-color:  peru;
+    float:left;
+}
+#nav li li{
+    background-color: rgb(223, 208, 124);
+}
+#nav a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+#nav ul ul{
+    display: none;
+}
+#ma1{
+	font-size: 24px;
+	color: peru;
+    font-weight: bolder;
+    background-color: gray;
+}
+#nei1{
+	font-size: 18px;
+	color: black;
+}
+#ma2{
+	font-size: 24px;
+	color: peru;
+    font-weight: bolder;
+    background-color: slategray;
+}
+#nei2{
+	font-size: 18px;
+    color: black;
+}
+#cop{
+	width: 1200px;
+	float: left;
+	text-align: center;
+	background-color: burlywood;
+}
+.zyx{
+    color: darkgoldenrod;
+    font-size: 30px;
+    margin: 2em 270px 1.5em 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.zyx-z{
+    margin: 2.5em 270px 1.5em 10cm;
+    padding: 1.5em 0 0;
+    color: chocolate;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

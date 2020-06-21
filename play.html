@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html >
+<body>
+    <!--页面内容剧中，宽度为1200px-->
+    <div style="border: 1px ; width: 1200px; height: 500px;margin: 0 auto;">
+
+<link type="text/css" rel="stylesheet" href="css/play.css">
+<!--网页命名-->
+<title>计算器</title>
+<!--页眉区-->
+<hgroup>
+    <h1 id="site-title"><span>LMM的个人作坊</span></h1>
+    <p>&nbsp;</p>
+    <h2 id="site-description">“LMM's Individual Workshop”</h2>
+    </hgroup>
+    
+    <div id="top"></div>
+
+	    <div id="nav">
+	    	<ul>
+	    		<li><a href="information.html">首页</a>
+	    			
+	    		</li>
+                <li ><a href="introduction.html">了解我</a>
+	    			
+	    		</li>
+	    		
+	    		<li><a href="science.html">科普</a>
+	    			
+	    		</li>
+	    		<li><a href="http://www.zuel.edu.cn">学校</a>
+	    			
+                </li>
+                <li><a href="play.html">工具</a>
+	    			
+                </li>
+	    		
+	    		
+	    	</ul>
+	    </div>		
+		<script>
+			function init(){
+				var num=document.getElementById("number");
+				num.value="0";
+			}
+			function numClick(obj){
+				var num=document.getElementById("number");
+				if(num.value!="0")
+				num.value+=obj.value;
+				else num.value=obj.value;
+			}
+			function calc(){
+				var num=document.getElementById("number");
+				num.value=eval(num.value);
+			}
+			function numInput(){
+				var e=event || window.event || arguments.callee.caller.arguments[0];
+				if(e.keyCode<48||e.keyCode>57||e.keyCode==44){
+					return false;
+				}
+				else 
+				{
+					if(num.value=="0")
+					num.value="";
+				}
+			}
+			function clear(){
+				num.value="0";
+			}
+		</script>
+	</head>
+	<body onload="init();">
+		<div id="calc">
+			<input type="text" id="number" onkeypress="return numInput();"/>
+			<div id="buttonarea">
+				<input type="button" value="OFF" onclick="init();"/> 
+				<input type="button" value="M+"/> 
+				<input type="button" value="M-"/> 
+				<input type="button" value="ON"/> 
+				<input type="button" value="7" onclick="numClick(this);"/> 
+				<input type="button" value="8" onclick="numClick(this);"/> 
+				<input type="button" value="9" onclick="numClick(this);"/>
+				<input type="button" value="/" onclick="numClick(this);"/>
+				<input type="button" value="4" onclick="numClick(this);"/> 
+				<input type="button" value="5" onclick="numClick(this);"/> 
+				<input type="button" value="6" onclick="numClick(this);"/> 
+				<input type="button" value="*" onclick="numClick(this);"/>
+				<input type="button" value="1" onclick="numClick(this);"/> 
+				<input type="button" value="2" onclick="numClick(this);"/> 
+				<input type="button" value="3" onclick="numClick(this);"/> 
+				<input type="button" value="-" onclick="numClick(this);"/>
+				<input type="button" value="0" onclick="numClick(this);"/>
+				<input type="button" value="."/>
+				<input type="button" value="=" onclick="calc();"/>
+				<input type="button" value="+" onclick="numClick(this);"/>
+				
+			</div>
+		</div>
+		<!--页脚-->
+        <div id="cop">
+            @2020   版权所有：201821130097 梁宇雁
+        </div>
+        </div>
+        </body>
+        </html>
